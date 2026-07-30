@@ -698,7 +698,7 @@
             ]
         },
         {
-            "name": "azureChatOpenAI",
+            "name": "azureChat",
             "models": [
                 {
                     "label": "gpt-5.2",
@@ -877,7 +877,7 @@
             ]
         },
         {
-            "name": "azureChatOpenAI_LlamaIndex",
+            "name": "azureChat_LlamaIndex",
             "models": [
                 {
                     "label": "gpt-4o-mini",
@@ -1590,12 +1590,12 @@
             "name": "groqChat",
             "models": [
                 {
-                    "label": "openai/gpt-oss-20b",
-                    "name": "openai/gpt-oss-20b"
+                    "label": "/gpt-oss-20b",
+                    "name": "/gpt-oss-20b"
                 },
                 {
-                    "label": "openai/gpt-oss-120b",
-                    "name": "openai/gpt-oss-120b"
+                    "label": "/gpt-oss-120b",
+                    "name": "/gpt-oss-120b"
                 },
                 {
                     "label": "meta-llama/llama-4-maverick-17b-128e-instruct",
@@ -1759,7 +1759,7 @@
             ]
         },
         {
-            "name": "chatOpenAI",
+            "name": "chat",
             "models": [
                 {
                     "label": "gpt-5.5",
@@ -1767,6 +1767,34 @@
                     "input_cost": 0.000005,
                     "output_cost": 0.00003
                 },
+                {
+                    "label": "gpt-5.6",
+                    "name": "gpt-5.6",
+                    "description": "GPT-5.6 Sol — latest flagship alias",
+                    "input_cost": 0.000005,
+                    "output_cost": 0.00003
+                },
+                {
+                    "label": "gpt-5.6-sol",
+                    "name": "gpt-5.6-sol",
+                    "description": "GPT-5.6 Sol — flagship model for complex professional work",
+                    "input_cost": 0.000005,
+                    "output_cost": 0.00003
+                },
+                {
+                    "label": "gpt-5.6-terra",
+                    "name": "gpt-5.6-terra",
+                    "description": "GPT-5.6 Terra — balanced performance and cost",
+                    "input_cost": 0.0000025,
+                    "output_cost": 0.000015
+                },
+                {
+                    "label": "gpt-5.6-luna",
+                    "name": "gpt-5.6-luna",
+                    "description": "GPT-5.6 Luna — fastest and lowest-cost GPT-5.6 model",
+                    "input_cost": 0.000001,
+                    "output_cost": 0.000006
+                },              
                 {
                     "label": "gpt-5.5-pro",
                     "name": "gpt-5.5-pro",
@@ -2046,7 +2074,7 @@
             ]
         },
         {
-            "name": "chatOpenAI_LlamaIndex",
+            "name": "chat_LlamaIndex",
             "models": [
                 {
                     "label": "gpt-5.5",
@@ -2517,7 +2545,7 @@
             ]
         },
         {
-            "name": "azureOpenAI",
+            "name": "azure",
             "models": [
                 {
                     "label": "text-davinci-003",
